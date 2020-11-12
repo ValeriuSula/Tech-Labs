@@ -1,0 +1,281 @@
+/* .body{
+	margin-top: 500px;
+} */
+nav.navbar-nav li a{
+  	color: white !important;
+ }
+ nav.navbar-brand img {
+ 	margin-left: 25px;
+ }
+div.about{
+	margin-right: 250px;
+}
+.body{
+	margin-top: 3.5em;
+	background-image: url(../img/Grid.png);
+	background-position: center;
+}
+.body1{
+	background-image: url(../img/Grid.png
+		);
+ 	background-position: center;
+	margin-top: 60px;
+  padding-bottom: 77px;
+	height: 700px;
+}
+.bs-form{
+	padding: 50px; 
+	margin-top: 150px;
+}
+.btn{
+	margin-left: 25px;
+}
+.map-container-2{
+	overflow:hidden;
+	padding-bottom: 100px;
+	position:relative;
+	height:0;
+}
+.map-container-2 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.abouthead{
+	margin-top: 50px;
+	height: 480px;
+	background-image: url(../img/AboutHead.png);
+	background-position: center;
+}
+.numbers{
+	background-color: #10c9c3;
+}
+.proiect{
+	padding-bottom: 100px;
+}
+.btn-primary{
+    background-color: #10c9c3;
+    border: none;
+}
+
+#page {
+  overflow: hidden;
+  position: absolute;
+}
+#page:after {
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0.7);
+  content: "";
+}
+::-webkit-selection {
+  color: #fff;
+  background: #cabcab;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #cabcab;
+}
+
+::selection {
+  color: #fff;
+  background: #cabcab;
+}
+.desc {
+  margin-bottom: 48px;
+}
+.work {
+  margin-bottom: 40px;
+}
+.work .work-grid {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.work .work-grid .inner {
+  display: table;
+  height: 300px;
+  width: 100.1%;
+  opacity: 0;
+  background: rgba(237, 235, 232, 0.9);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .work .work-grid .inner {
+    opacity: 1;
+    background: rgba(237, 235, 232, 0.7);
+  }
+}
+.work .work-grid .inner .desc {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px;
+}
+.work .work-grid .inner .desc h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.work .work-grid .inner .desc h3 a {
+  color: #000;
+}
+.work .work-grid .inner .desc .cat {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .work .work-grid .inner .desc {
+    color: #333333;
+  }
+}
+.work:hover .inner, .work:focus .inner {
+  opacity: 1;
+}
+.work:hover .desc h3 a, .work:focus .desc h3 a {
+  color: #10c9c3;
+}
+@media screen and (max-width: 480px) {
+.desc {
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+    
+  }
+}
+.desc span {
+  font-size: 13px;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 1px;
+}
+.animate-box {
+  opacity: 0;
+  margin-top: 25px;
+}
+
+/* For TouchSPin */
+.bootstrap-touchspin .input-group-btn-vertical{
+    position:relative;
+    white-space:nowrap;
+    width:1%;
+    vertical-align:middle;
+    display:table-cell
+}
+.bootstrap-touchspin .input-group-btn-vertical>.btn{
+  display:block;
+  float:none;
+  width:100%;
+  max-width:100%;
+  padding:8px 10px;
+  margin-left:-1px;
+  position:relative
+}
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up{
+  border-radius:0;
+  border-top-right-radius:4px
+}
+.bootstrap-touchspin .input-group-btn-vertical 
+.bootstrap-touchspin-down{
+  margin-top:-2px;
+  border-radius:0;
+  border-bottom-right-radius:4px
+}
+.bootstrap-touchspin .input-group-btn-vertical i{
+  position:absolute;
+  top:3px;
+  left:5px;
+  font-size:9px;
+  font-weight:400
+}
+
+.foto-block img {
+  width: 100%;
+}
+
+#product {
+  margin: 20px 0px;
+}
+
+.img-block {
+  width: 98%;
+  margin: 20px 0px;
+}
+
+.info-line {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0px;
+}
+
+.counter {
+  width: 20%;
+  height: 20px;
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+
+
+}
+
+.info-minusplus {
+  padding: 0px 10px;
+}
+
+.minus, .plus {
+  float: left;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 100%;
+  background: #000;
+  font-weight: bold;
+}
+
+.counter p {
+  float: left;
+}
+
+.info-line .info-title {
+  width: 60%;
+  float: left;
+}
+
+.info-line .info-price {
+  width: 20%;
+  float: left;
+
+}
+
+.tr {
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin: 30px 0px;
+}
+
+.totals {
+  text-align: right;
+}

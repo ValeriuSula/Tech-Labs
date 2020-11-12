@@ -1,0 +1,101 @@
+/* Design-ul sectiei features */
+section {
+  padding: 1rem 0 3rem;
+}
+.features {
+  background-color: #10c9c3;
+}
+.section-header {
+  height: 60px;
+  margin: 2rem 0;
+  text-align: center;
+}
+.features-block {
+  text-align: center;
+}
+.features-img {
+  height: 4rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.footabout {
+  padding-top: 66px;
+}
+.footabout h3 {
+  font-weight: 550px;
+}
+.footabout p {
+  padding-top: 43px;
+  font-size: 17px;
+  color: #787878;
+  letter-spacing: 0.08px;
+  padding: 50px;
+}
+.footabout img {
+  padding-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.proiect {
+  padding-top: 100px;
+}
+.proiect h3 {
+  font-weight: 600;
+  color: #1d1d1d;
+  padding-bottom: 35px;
+}
+.proiect p {
+  padding-bottom: 40px;
+}
+.proiect .btn {
+  width: 200px;
+  height: 55px;
+  margin-left: -1px;
+}
+a:hover {
+  color: #10c9c3;
+  text-decoration: none;
+}
+/* Cart ADS */
+.param {
+  margin-bottom: 7px;
+  line-height: 1.4;
+}
+.param-inline dt {
+  display: inline-block;
+}
+.param dt {
+  margin: 0;
+  margin-right: 7px;
+  font-weight: 600;
+}
+.param-inline dd {
+  vertical-align: baseline;
+  display: inline-block;
+}
+.param dd {
+  margin: 0;
+  vertical-align: baseline;
+}
+.shopping-cart-wrap .price {
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+}
+var {
+  font-style: normal;
+}
+.media img {
+  margin-right: 20rem;
+}
+.img-sm {
+  width: 90px;
+  max-height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
